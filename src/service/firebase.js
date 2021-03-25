@@ -1,17 +1,16 @@
 import firebase from 'firebase/app';
 import 'firebase/database';
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyBXGcXsP4iehbiFWsf_ALlyyL39uqtJ5v0",
-  authDomain: "pokemon-game-bec3c.firebaseapp.com",
-  databaseURL: "https://pokemon-game-bec3c-default-rtdb.firebaseio.com",
-  projectId: "pokemon-game-bec3c",
-  storageBucket: "pokemon-game-bec3c.appspot.com",
-  messagingSenderId: "242838864798",
-  appId: "1:242838864798:web:7cbfa3c24a48507388cc8f"
+  apiKey: "AIzaSyDXL18pBgI5GGoWfErh5m7dZe_KAEcFNAY",
+  authDomain: "pokemon-game-4aef1.firebaseapp.com",
+  databaseURL: "https://pokemon-game-4aef1-default-rtdb.firebaseio.com",
+  projectId: "pokemon-game-4aef1",
+  storageBucket: "pokemon-game-4aef1.appspot.com",
+  messagingSenderId: "1023687089205",
+  appId: "1:1023687089205:web:3681c711be0b7451faa57c",
+  measurementId: "G-K3S2X5RNWP"
 };
-
 firebase.initializeApp(firebaseConfig);
 
 class Firebase {
@@ -23,17 +22,14 @@ class Firebase {
   }
 
   getPokemonSocket = (cb) => {
-
     this.database.ref('pokemons').on('value', (snapshot) => {
+      
       cb(snapshot.val())
     });
-
   }
 
   postPokemon = (key, pokemon) => {
-
     return this.database.ref(`pokemons/${key}`).set(pokemon);
-
   }
 
   addPokemon = (data) => {
