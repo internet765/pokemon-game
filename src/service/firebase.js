@@ -2,15 +2,15 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDXL18pBgI5GGoWfErh5m7dZe_KAEcFNAY",
-  authDomain: "pokemon-game-4aef1.firebaseapp.com",
-  databaseURL: "https://pokemon-game-4aef1-default-rtdb.firebaseio.com",
-  projectId: "pokemon-game-4aef1",
-  storageBucket: "pokemon-game-4aef1.appspot.com",
-  messagingSenderId: "1023687089205",
-  appId: "1:1023687089205:web:3681c711be0b7451faa57c",
-  measurementId: "G-K3S2X5RNWP"
+  apiKey: "AIzaSyAMwscg4CzG6_y8yCgIvdPVI6v4Pp2cnOw",
+  authDomain: "pokemon-6f001.firebaseapp.com",
+  databaseURL: "https://pokemon-6f001-default-rtdb.firebaseio.com",
+  projectId: "pokemon-6f001",
+  storageBucket: "pokemon-6f001.appspot.com",
+  messagingSenderId: "278330357133",
+  appId: "1:278330357133:web:7943faf4cb892d77dbf9c4"
 };
+
 firebase.initializeApp(firebaseConfig);
 
 class Firebase {
