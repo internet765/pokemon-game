@@ -7,7 +7,7 @@ Pokemon-game React v0.0.1
 - Function React Component 
 - React Router
 - Firebase
-- Reat API
+- Reast API
 - React Hooks
 - React Context
 
