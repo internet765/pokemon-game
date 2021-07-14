@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useHistory } from 'react-router-dom';
 
-import style from '../Finish/finish.module.css';
+import style from '../finish/finish.module.css';
 
 import PokemonCard from "../../../../components/PkemonCard/PokemonCard";
 

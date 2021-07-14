@@ -1,9 +1,9 @@
 import { useLocation, Route, Switch, Redirect } from "react-router-dom";
 import { FireBaseContext } from "./context/firebaseContext";
 
-import HomePage from './routes/Home/Home';
+import HomePage from './routes/Home/home';
 import GamePage from './routes/Game/GamePage';
-import AboutPage from './routes/About/About';
+import AboutPage from './routes/About/about';
 import NotFound from './routes/NotFound/NotFound';
 import HeaderMenu from "./components/HeaderMenu/HeaderMenu";
 import Footer from "./components/Footer/Footer";

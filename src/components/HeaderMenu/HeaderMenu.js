@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Menu from '../Menu/Menu';
+import Menu from '../Menu/menu';
 import NavBar from '../NavBar/NavBar';
 
 const HeaderMenu = ({bgActive}) => {

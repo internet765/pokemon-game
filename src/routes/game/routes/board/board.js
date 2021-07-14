@@ -4,7 +4,7 @@ import PokemonCard from "../../../../components/PkemonCard/PokemonCard";
 import { useHistory } from "react-router-dom";
 import { PokemonContext } from '../../../../context/pokemonContext';
 
-import style from '../Board/board.module.css';
+import style from '../board/board.module.css';
 import PlayerBoard from "./component/PlayerBoard.js/PlayerBoard";
 
 const counterWins = (board, player1, player2) => {

@@ -3,9 +3,9 @@ import React, { useState } from "react";
 
 import { PokemonContext } from "../../context/pokemonContext";
 
-import StartPage from './routes/Start/Start';
-import BoardPage from './routes/Board/Board';
-import FinishPage from './routes/Finish/Finish';
+import StartPage from './routes/start/start';
+import BoardPage from './routes/board/board';
+import FinishPage from './routes/finish/finish';
 import LoosPage from './routes/Loos/Loos';
 
 function GamePage() {
